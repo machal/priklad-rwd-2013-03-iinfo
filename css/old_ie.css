@@ -1,0 +1,49 @@
+/* 
+
+--- Layout - pro siroke displeje --- 
+
+*/
+body {
+  background: #ccc;
+}
+.container {
+  position: relative;
+  margin: 3em 2%;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
+  color: 0px 0px 1em rgba(0, 0, 0, 0.5);
+}
+.logo {
+  padding: 30px 3%;
+  margin: 0;
+}
+.content {
+  float: left;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 54%;
+}
+.side {
+  float: right;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 34%;
+}
+.foot {
+  padding: 3em 3%;
+}
+.nav li {
+  width: 25%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  border-left: 1px solid #fff;
+  border-bottom: none;
+}
+.nav li:first-child .nav-item {
+  border-left: none;
+}
