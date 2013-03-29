@@ -83,6 +83,11 @@ table th {
     position: absolute;
     top: -200px;
   }
+  .content img,
+  .side img {
+    max-width: 100%;
+    height: auto;
+  }
   /* Konstrukcni elementy */
   .content,
   .nav,
