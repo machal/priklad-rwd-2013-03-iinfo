@@ -73,12 +73,26 @@ table th {
   }
 }
 @media screen {
-  /* 
+  {
+    /* 
   
   --- Vzhled pro velke screeny --- 
   
   */
-  /* Lokalni helpery */
+  
+    /* Lokalni helpery */
+  
+    /* Konstrukcni elementy */
+  
+    /* Navigace */
+  
+    /* Polozka navigace */
+  
+    /* Paticka */
+  
+    /* Fotogalerie */
+  
+  }
   .hide-on-screen {
     position: absolute;
     top: -200px;
@@ -88,20 +102,17 @@ table th {
     max-width: 100%;
     height: auto;
   }
-  /* Konstrukcni elementy */
   .content,
   .nav,
   .side,
   .logo {
     margin-bottom: 1.5em;
   }
-  /* Navigace */
   .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  /* Polozka navigace */
   .nav-item {
     display: block;
     border-bottom: 1px solid #fff;
@@ -124,7 +135,6 @@ table th {
   .nav li:last-child .nav-item {
     border-bottom: none;
   }
-  /* Paticka */
   .foot {
     clear: both;
     background-color: #ccc;
@@ -133,7 +143,6 @@ table th {
   .foot p {
     margin-bottom: 0;
   }
-  /* Fotogalerie */
   .photogallery {
     padding: 15px 0 0 15px;
     background: #ccc;
@@ -144,11 +153,16 @@ table th {
     width: 23%;
     float: left;
   }
-  /* 
+}
+@media screen and (min-width: 600px) {
+  {
+    /* 
   
   --- Layout - pro siroke displeje --- 
   
   */
+  
+  }
   body {
     background: #ccc;
   }
